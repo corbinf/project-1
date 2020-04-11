@@ -9,4 +9,4 @@
 - Markdown language for README files
 - JavaScript ES6+ features
 
-![](images/GithubOctocat.jpg)
+![](images/GithubOctocat2.jpg)
