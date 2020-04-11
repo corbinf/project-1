@@ -8,4 +8,5 @@
 - Github Overview
 - Markdown language for README files
 - JavaScript ES6+ features
-  
+
+![](images/GithubOctocat.jpg)

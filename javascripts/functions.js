@@ -16,7 +16,7 @@ let arrAvg = (arr) => {
 let arrMax = (arr) => {
   var maxNum = arr[0];
   arr.forEach(m => {
-    if (m > maxNum) {
+    if(m > maxNum) {
       maxNum = m;
     }
   });
@@ -32,15 +32,3 @@ let sumEvens = (arr) => {
   }
   return sum;
 };
-
-/*let fruits = ["Apple", "Oranges", "Plum"];
-let maxSoFar = fruits[0].length;
-
-//iterate over array ay
-fruits.forEach((elem) => {
-  if(elem.length > maxSoFar){
-  maxSoFar = elem.length
-  }
-});
-
-console.log(maxSoFar);*/
