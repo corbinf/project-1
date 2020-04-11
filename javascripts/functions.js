@@ -14,7 +14,23 @@ let arrAvg = (arr) => {
 
 //Req. 3c
 let arrMax = (arr) => {
-  //
+  var maxNum = arr[0];
+  arr.forEach(m => {
+    if (m > maxNum) {
+      maxNum = m;
+    }
+  });
+  return maxNum;
+};
+
+//Req. 3d
+let sumEvens = (arr) => {
+  var sum = 0;
+  for(var num of arr) {
+    if(num%2 == 0)
+    sum = sum + num;
+  }
+  return sum;
 };
 
 /*let fruits = ["Apple", "Oranges", "Plum"];
